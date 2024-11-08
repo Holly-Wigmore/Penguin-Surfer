@@ -7,7 +7,7 @@ winnerScreen.classList.add("winner-screen");
 document.body.appendChild(winnerScreen);
 winnerScreen.style.display = "none"; // Hide initially
 winnerScreen.innerHTML =
-  "<h2>Congratulations! 🏆</h2><p>You reached the final wave!</p>";
+  " <h2>Gnarly!</h2><p>You reached the final wave and collected all the life buoys, dude🌊</p>";
 
 const ctx = canvas.getContext("2d");
 canvas.width = innerWidth;
