@@ -76,6 +76,19 @@ body {
   display: none;
 }
 
+.winner-screen {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fcfefe;
+  padding: 20px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 1.5rem;
+  color: #113f67;
+}
+
 #canvas {
   display: none;
   display: block;
